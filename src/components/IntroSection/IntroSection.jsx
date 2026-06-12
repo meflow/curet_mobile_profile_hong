@@ -1,4 +1,5 @@
 import styles from './IntroSection.module.css'
+import kakaoProfile from '../../assets/images/kakaoProfile.jpg'
 
 const bullets = [
   '프리미엄 건강식품 라인업 총괄',
@@ -8,6 +9,7 @@ const bullets = [
 function IntroSection() {
   return (
     <section className={styles.intro}>
+      <img src={kakaoProfile} alt="홍성표" className={styles.profileThumb} />
       <h2 className={styles.title}>건강식품사업 총괄디렉터 홍성표 입니다.</h2>
       <ul className={styles.list}>
         {bullets.map((text) => (
