@@ -8,7 +8,7 @@ const bullets = [
 function IntroSection() {
   return (
     <section className={styles.intro}>
-      <h2 className={styles.title}>건강식품사업총괄 홍성표 입니다.</h2>
+      <h2 className={styles.title}>건강식품사업 총괄디렉터 홍성표 입니다.</h2>
       <ul className={styles.list}>
         {bullets.map((text) => (
           <li key={text} className={styles.item}>

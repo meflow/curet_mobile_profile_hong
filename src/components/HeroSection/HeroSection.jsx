@@ -12,10 +12,10 @@ function HeroSection() {
       <div className={styles.overlay}>
         <div className={styles.info}>
           <h1 className={styles.name}>홍성표</h1>
-          <p className={styles.role}>식품사업부 총괄 디렉터</p>
-          <p className={styles.company}>올 웨이즈 온</p>
+          <p className={styles.role}>식품사업부 총괄디렉터</p>
+          <p className={styles.company}>올웨이즈온</p>
         </div>
-        <div className={styles.tag}>건강식품&nbsp;&nbsp;All ways on</div>
+        <div className={styles.tag}>식품사업부&nbsp;&nbsp;올웨이즈온</div>
       </div>
     </section>
   )
