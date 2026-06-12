@@ -6,13 +6,6 @@
   gap: 12px;
 }
 
-.profileThumb {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 .title {
   color: #1D293D;
   font-size: 18px;
