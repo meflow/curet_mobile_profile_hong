@@ -1,0 +1,58 @@
+.contact {
+  padding: 0 16px;
+  background: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 0.83px solid #E5E7EB;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row:hover .value {
+  color: #2B7FFF;
+}
+
+.row:hover .arrowBtn svg path {
+  stroke: #2B7FFF;
+}
+
+.label {
+  flex-shrink: 0;
+  color: #45556C;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  min-width: 52px;
+}
+
+.valueWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.value {
+  color: #1D293D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+  transition: color 0.15s;
+}
+
+.arrowBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.arrowBtn svg path {
+  transition: stroke 0.15s;
+}

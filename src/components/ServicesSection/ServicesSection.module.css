@@ -1,0 +1,74 @@
+.services {
+  padding: 28px 16px 32px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerLabel {
+  color: #1D293D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.bullet {
+  color: #62748E;
+  font-size: 14px;
+  line-height: 20px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.text {
+  color: #314158;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.serviceTitle {
+  font-weight: 400;
+  color: #314158;
+}
+
+.cta {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ctaTitle {
+  color: #1D293D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ctaDesc {
+  color: #314158;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}

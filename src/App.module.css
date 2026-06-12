@@ -1,0 +1,6 @@
+.card {
+  width: 100%;
+  max-width: 386px;
+  background: white;
+  min-height: 100vh;
+}

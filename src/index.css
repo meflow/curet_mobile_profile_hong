@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-dark: #1D293D;
+  --color-primary: #314158;
+  --color-secondary: #45556C;
+  --color-muted: #62748E;
+  --color-icon: #90A1B9;
+  --color-divider: #E5E7EB;
+  --color-accent: #2B7FFF;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: #F5F5F5;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
